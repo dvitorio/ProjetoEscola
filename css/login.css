@@ -1,0 +1,43 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+}
+
+body{
+     background-image: url("/img/giz.jpg");
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.containerLogin{
+     max-width: 500px;
+     min-width: 300px;
+     background-color: rgba(64, 58, 58, 0.751) !important;
+     margin-top: 10vh !important;
+}
+
+p{
+     font-size: .8em;
+}
+
+.midias{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.midias i{
+     color: rgb(207, 194, 194);
+     font-size: 1.25em;
+}
+
+.midias i:hover{
+     color: white !important;
+     transform: scale(1.2);
+     transition: linear .2s;
+}
